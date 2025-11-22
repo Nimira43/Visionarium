@@ -4,3 +4,67 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 300 !important;
 }
+
+.text-main    { 
+  color: #ff4500; 
+}
+
+.text-support { 
+  color: #008080; 
+}
+
+.text-dark    { 
+  color: #111; 
+}
+
+.text-light   { 
+  color: #fffdfa; 
+}
+
+.text-grey1   { 
+  color: #333; 
+}
+
+.text-grey2   { 
+  color: #999; 
+}
+
+.text-grey3   { 
+  color: #ccc; 
+}
+
+.text-grey4   { 
+  color: #eee; 
+}
+
+.bg-main    { 
+  background-color: #ff4500; 
+}
+
+.bg-support { 
+  background-color: #008080; 
+}
+
+.bg-dark    { 
+  background-color: #111; 
+}
+
+.bg-light   { 
+  background-color: #fffdfa; 
+}
+
+.bg-grey1   { 
+  background-color: #333; 
+}
+
+.bg-grey2   { 
+  background-color: #999; 
+}
+
+.bg-grey3   { 
+  background-color: #ccc; 
+}
+
+.bg-grey4   { 
+  background-color: #eee; 
+}
