@@ -7,8 +7,8 @@ function App() {
             <div>Logo</div>
             <div>Subtitle</div>
           </div>
-          <div className-md-12 col-4-lg>
-            <input type="text" />
+          <div className='col-md-12 col-lg-4'>
+            <input type='text' />
           </div>
         </div>
       </div>
