@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next' 
 import { Poppins } from 'next/font/google'
-import "./globals.css";
+import './globals.css' 
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -8,21 +8,21 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Leonardo",
+  title: 'Leonardo',
   description: 'SaaS application using Next JS, TypeScript, Tailwind, Shadcn, Neon, Prisma, ArcJet and Kinde.',
-};
+} 
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode 
 }>) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={poppins.className}>
         {children}
       </body>
     </html>
-  );
+  ) 
 }
 git remote add origin https://github.com/Nimira43/Leonardo.git
