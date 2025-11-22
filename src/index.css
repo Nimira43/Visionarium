@@ -16,6 +16,11 @@
   --grey-4: #eee;
 }
 
+body {
+  background-color: var(--light);
+  color: var(--grey-1);
+}
+
 .text-main    { 
   color: var(--main); 
 }
@@ -95,17 +100,18 @@ button:hover {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: - 
+  background-color: var(--grey-4); 
 }
 
 .header {
-
+  flex: 2;
 }
 
 .tv-show-detail {
-
+  flex: 4;
 }
 
-.recommended-tv-show {
+.recommended-tv-shows {
+  flex: 2;
 
 }
