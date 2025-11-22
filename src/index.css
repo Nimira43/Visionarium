@@ -68,3 +68,13 @@
 .bg-grey4   { 
   background-color: #eee; 
 }
+
+button {
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out !important;
+}
+
+button:hover {
+  opacity: 0.85;
+}
