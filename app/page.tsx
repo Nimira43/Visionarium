@@ -1,7 +1,7 @@
 function HomePage() {
   return (
-    <div>
-      <h1>Leonardo</h1>
+    <div className='bg-primary p-6'>
+      <h1 className='text-white logo'>Leonardo</h1>
     </div>
   )
 }

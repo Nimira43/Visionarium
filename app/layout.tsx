@@ -25,4 +25,3 @@ export default function RootLayout({
     </html>
   ) 
 }
-git remote add origin https://github.com/Nimira43/Leonardo.git
