@@ -8,7 +8,10 @@ function App() {
             <div>Subtitle</div>
           </div>
           <div className='col-md-12 col-lg-4'>
-            <input type='text' />
+            <input 
+            style={{ width: '100%' }}
+            type='text' 
+            />
           </div>
         </div>
       </div>
