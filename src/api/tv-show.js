@@ -1,3 +1,5 @@
 export class TVShowAPI {
-  static async fetchPopulars() {}
+  static async fetchPopulars() {
+    
+  }
 }
