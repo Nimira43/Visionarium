@@ -101,7 +101,15 @@ button:hover {
 
 .logo {
   font-family: 'Lobster', sans-serif;
+  font-size: 2rem;
+  color: var(--main);
+  text-shadow:
+    /* tight teal outline */
+    -1px -1px 0 var(--support), 1px -1px 0 var(--support), -1px 1px 0 var(--support), 1px 1px 0 var(--support),
+    /* subtle depth */
+    0 0 3px rgba(0, 0, 0, 0.25);
 }
+
 .app-container {
   padding: 25px;
   display: flex;
