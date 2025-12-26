@@ -4,7 +4,7 @@ function App() {
       <div className='header'>
         <div className='row'>
           <div className='col-4'>
-            <div>Logo</div>
+            <div className>Visiōnārium</div>
             <div>Subtitle</div>
           </div>
           <div className='col-md-12 col-lg-4'>
