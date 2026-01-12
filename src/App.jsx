@@ -1,3 +1,7 @@
+import { TVShowAPI } from "./api/tv-show"
+
+TVShowAPI.fetchPopulars()
+
 function App() {
   return (
     <div className='app-container'>
