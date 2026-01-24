@@ -7,13 +7,13 @@ TVShowAPI.fetchPopulars()
 function App() {
   const [currentTVShow, setCurrentTVShow] = useState()
 
-  async function fetchPopulars() {
-    const popularTVShowList = await TVShowAPI.fetchPopulars()
+  // async function fetchPopulars() {
+  //   const popularTVShowList = await TVShowAPI.fetchPopulars()
 
-    if (popularTVShowList.length > 0) {
-      setCurrentTVShow(popularTVShowList[0])
-    }    
-  }
+  //   if (popularTVShowList.length > 0) {
+  //     setCurrentTVShow(popularTVShowList[0])
+  //   }    
+  // }
 
   useEffect(() => {
     async function load() {
