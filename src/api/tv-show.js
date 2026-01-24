@@ -1,12 +1,13 @@
-import axios from 'axios'
+// import axios from 'axios'
+import { FAKE_POPULARS } from './fake_data'
+// import { baseUrl, apiKey } from '../config'
 
-const baseUrl = import.meta.env.VITE_BASE_URL
-const apiKey = import.meta.env.VITE_API_KEY
 
 export class TVShowAPI {
   static async fetchPopulars() {
-    const response = await axios.get(`${baseUrl}tv/popular${apiKey}`)
-    console.log(response.data.results)
-    return response.data.results
+    // const response = await axios.get(`${baseUrl}tv/popular${apiKey}`)
+    // console.log(response.data.results)
+    // return response.data.results
+    return FAKE_POPULARS
   }
 }
